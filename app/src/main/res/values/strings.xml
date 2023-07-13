@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Demo Notification</string>
+    <string name="channel_name">Channel 1</string>
+    <string name="channel_description">This is Channel 1</string>
+
+    <string name="channel_name_2">Channel 2</string>
+    <string name="channel_description_2">This is Channel 2</string>
+    <string name="title_notification">Việt Nam lần đầu có HC đồng nhảy ba bước tại giải vô địch châu Á</string>
+    <string name="content_notification">VĐV Nguyễn Thị Hường đứng thứ ba chung cuộc, giúp Việt Nam lần đầu giành
+        huy chương thi nhảyba bước tại giải điền kinh vô địch châu Á 2023.</string>
+</resources>

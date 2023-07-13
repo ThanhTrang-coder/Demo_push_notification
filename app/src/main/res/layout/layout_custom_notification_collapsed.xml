@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imv_custom_collapsed"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_youtube" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/imv_custom_collapsed"
+        android:layout_toStartOf="@id/tv_time_custom_collapsed">
+
+        <TextView
+            android:id="@+id/tv_title_custom_collapsed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the title"
+            style="@style/TextAppearance.Compat.Notification.Title" />
+
+        <TextView
+            android:id="@+id/tv_message_custom_collapsed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the message"
+            style="@style/TextAppearance.Compat.Notification.Info" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_time_custom_collapsed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15:53"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        style="@style/TextAppearance.Compat.Notification.Info" />
+</RelativeLayout>
